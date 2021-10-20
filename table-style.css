@@ -1,0 +1,65 @@
+body{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.table{
+    width: 80%;
+    margin: 5% 30% 5% 10%;
+    
+}
+
+.table td{
+    border-right: 1px;
+    border-left: 1px;
+}
+
+/* .table tr:hover{
+    background-color: rgb(219, 232, 243);
+} */
+
+.table tr:nth-child(even){
+    background-color: rgb(233, 248, 248);
+}
+
+.btn{
+    cursor: pointer;
+}
+
+caption{
+    caption-side: top !important;
+    color: rgb(255, 255, 255);
+    background-color: rgb(89, 89, 192);
+    margin-bottom: 5px;
+    padding: 8px;
+}
+
+
+
+
+.pagination {
+    display: inline-block;
+    margin-left: 30%;
+    
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 4px;
+    margin-bottom: 2%;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination a:hover:not(.active) {
+      background-color: #ddd;
+    }
