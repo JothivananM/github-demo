@@ -4,18 +4,13 @@ body{
 }
 .table{
     width: 80%;
-    margin: 5% 30% 5% 10%;
-    
+    margin: 5% 30% 5% 10%;    
 }
 
 .table td{
     border-right: 1px;
     border-left: 1px;
 }
-
-/* .table tr:hover{
-    background-color: rgb(219, 232, 243);
-} */
 
 .table tr:nth-child(even){
     background-color: rgb(233, 248, 248);
@@ -33,13 +28,9 @@ caption{
     padding: 8px;
 }
 
-
-
-
 .pagination {
     display: inline-block;
-    margin-left: 30%;
-    
+    margin-left: 30%;    
   }
   
   .pagination a {
@@ -62,4 +53,4 @@ caption{
   
   .pagination a:hover:not(.active) {
       background-color: #ddd;
-    }
+  }
